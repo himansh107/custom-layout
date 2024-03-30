@@ -17,8 +17,8 @@ The code below is the connect section of the .tech file. It shows one instance c
 - nsd - n substrate diffusion </p>
 
 Writing all three seperated by comma means that they are mutually connected. Repeating the same with space in between denotes that there is a electrical flow of current between them. </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/d162573b-c14f-46c8-b4bc-87248c894f5f" width="600">
 
- ![image](https://github.com/himansh107/custom-layout/assets/75253218/d162573b-c14f-46c8-b4bc-87248c894f5f)
 
 Similarly, in the picture above the polysilicon (poly) is connected to all fets and polysilicon contact of the active plane and there is electrical current flow between these connections </p>
 
