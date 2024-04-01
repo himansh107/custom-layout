@@ -61,8 +61,8 @@ The growth bumps created in the locos process isolated the two transistor areas 
 
 **5) Lightly doped drain (LDD) formation (mask7 & 8)** </p>
 
-- Mask7 is applied on n well side and p well side is showered with n type ions to create a lightly doped N – implants which acts as drain 
-- Mask8 is applied on p well side and n well side is showered with n type boron ion to create P implants </p>
+- **Mask7** is applied on n well side and p well side is showered with n type ions to create a lightly doped N – implants which acts as drain 
+- **Mask8** is applied on p well side and n well side is showered with n type boron ion to create P implants </p>
 **Image after 5th step** </p>
 
 ![image](https://github.com/himansh107/custom-layout/assets/75253218/f8647d92-47d3-47cb-8605-18c17a39a92d) </p>
