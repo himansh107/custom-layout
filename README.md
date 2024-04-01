@@ -1,7 +1,7 @@
 # VSD Custom-Layout
 This a repository describing the summary of the custom layout course by VSD
 
-## 16 mask CMOS process
+## Module 1 - 16 mask CMOS process
 
 **1. Selecting a substrate** </p>
 Selection of P type substrate with resistivity of 5^50 ohms and maintain a doping level which is less than ‘well’ doping. (~ 10^15 cm-3) </p>
@@ -36,7 +36,7 @@ The growth bumps created in the locos process isolated the two transistor areas 
 - Ion implantation is done by showering P type Boron ions. This process creates the P-well
 - Similarly, Nwell is created by placing the photoresist on the Pwell side and showering the N well side with N type 
 - Diffuse the N-well & P-well to half width of the substrate by High temperature furnace. Pockets of N & P well will be formed. </p>
-  **Image after 3rd step**
+  **Image after 3rd step** </p>
  ![image](https://github.com/himansh107/custom-layout/assets/75253218/d0d71f1a-c093-4d53-9bd3-b84eb949ac23) </p>
 
 **4) Formation of Gate – most imp terminal of Mosfet (4th  mask used)** </p>
@@ -134,7 +134,9 @@ black circle - space tile, red circle -  well mask </p>
  ```bash
   *watch metal1 demo
 ```
-**output** </p>
+ 
+**output**   </p>
+
 ![image](https://github.com/himansh107/custom-layout/assets/75253218/7018cc29-6833-4d5e-a507-826ce1475e27) </p>
 
 **Active plane is everything after removing metal1 and wells** </p>
@@ -172,7 +174,7 @@ Writing all three seperated by comma means that they are mutually connected. Rep
 Similarly, in the picture above the polysilicon (poly) is connected to all fets and polysilicon contact of the active plane and there is electrical current flow between these connections </p>
 
 
-## Module 3 - Design Rule Check  
+## Module 4 - Design Rule Check  
 </p>
 
 Lambda (λ) based design rule </p>
@@ -184,39 +186,43 @@ Lambda (λ) based design rule </p>
 **Lab Activity:** </p>
 
 **1. Minimum poly widht = 2λ** </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/e0f2d113-6c16-456e-a094-cbc0f9b8bb27" width="450">
 
-![image](https://github.com/himansh107/custom-layout/assets/75253218/e0f2d113-6c16-456e-a094-cbc0f9b8bb27) </p>
+
 
 **Corrected DRC error** </p>
-![image](https://github.com/himansh107/custom-layout/assets/75253218/dedb7bf4-074f-4869-97a8-483ec4d0184e) </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/dedb7bf4-074f-4869-97a8-483ec4d0184e" width="450">
+
 
 **2. Poly extension over active** </p>
 
 Minimum = 3 λ </p>
 
 **drc illustration** <p>
-
-![image](https://github.com/himansh107/custom-layout/assets/75253218/662ac86a-650d-4810-a99c-b9806ea25bec) </p>
-
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/662ac86a-650d-4810-a99c-b9806ea25bec" width="450">
 
 **2. Poly to diffusion spacing** </p>
 
 minimum = 1λ </p>
 
 **drc illustration** </p>
-![image](https://github.com/himansh107/custom-layout/assets/75253218/b1f786af-661d-4176-ac3b-723efced580e) </p>
+
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/b1f786af-661d-4176-ac3b-723efced580e" width="450">
+
 
 **3. Poly to n diffusion contact spacing** </p>
 
 minimum = 1λ </p>
 **drc illustration** </p>
-![image](https://github.com/himansh107/custom-layout/assets/75253218/2e01d80c-f453-4497-8bb7-5cf727fd61a5) </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/2e01d80c-f453-4497-8bb7-5cf727fd61a5" width="450">
+
 
 **4. ndiff/pdiff contact** 
 
 minimum width = 4λ, height = 4λ </p>
 **drc illustration** </p>
-![image](https://github.com/himansh107/custom-layout/assets/75253218/e6756ca7-028e-48ee-b720-46774233ffd4) </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/e6756ca7-028e-48ee-b720-46774233ffd4" width="450">
+
 
 **5. Metal1 width – 3λ minimum** </p>
 **6. Poly to metal spacing – n/a** </p>
@@ -225,27 +231,124 @@ minimum width = 4λ, height = 4λ </p>
 
  minimum  = 3λ </p>
 **drc illustration** </p>
-![image](https://github.com/himansh107/custom-layout/assets/75253218/d5a575f2-e6ac-4e01-96a5-e85ab9201b78) </p>
+
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/d5a575f2-e6ac-4e01-96a5-e85ab9201b78" width="450">
+
 
 
 **8. Ndc to ndc spacing** </p>
 
+minimum = 2    λ
+
 **drc illustration** </p>
 
-![image](https://github.com/himansh107/custom-layout/assets/75253218/57021401-0a85-4605-b0aa-ed143c5903e4) </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/57021401-0a85-4605-b0aa-ed143c5903e4" width="450"> </p>
+
+
 
 ndc , ndc touching is ok </p>
 
 **drc illustration** </p>
 
-![image](https://github.com/himansh107/custom-layout/assets/75253218/b3286ac9-d132-410c-831c-92be9085536d)
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/b3286ac9-d132-410c-831c-92be9085536d" width="450"> </p>
+
+
 
 **9. Ndiffussion contact to  p-substrate contact spacing** </p>
 
 minimum = 2 λ </p>
-
-![image](https://github.com/himansh107/custom-layout/assets/75253218/e436009d-074a-4a73-9f34-6acaa88743ef) </p>
-
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/e436009d-074a-4a73-9f34-6acaa88743ef" width="450"> </p>
 
 
+### Lab Activity: Layout vs schematic of CMOS inverter 
+</p>
 
+ **spice netlist for prelayout** </p>
+ 
+ <img src="https://github.com/himansh107/custom-layout/assets/75253218/31a3b077-e789-47bb-84f4-99c43de0148f" width="450"> </p>
+ 
+
+**Prelayout simulation** </p>
+ <img src="https://github.com/himansh107/custom-layout/assets/75253218/624c0851-e98a-47a9-af29-9b336b57fa1d" width="450"> </p>
+
+
+- Prelayout propagation delay = 0.0066 ns = 6.6 ps </p>
+**Postlayout simulation** </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/5cf306f8-4386-4d4c-b2cc-45578ced5fa5" width="450"> </p>
+
+
+- Postlayout propagation delay = 0.0205 ns = 20.5ps 
+- Layout vs Schematic = Prelayout layout - Postlayout delay = 20.5ps - 6.6ps = 13.9 ps
+</p>
+
+
+ 
+
+## Module - 5 Simple path, Euler’s path and euler’s circuit
+
+**Euler’s path** – a path which includes all edges exactly ‘ONCE’ and has a different start and end vertices. </p>
+**Euler’s circuit** – a path which traverses all edges exactly ‘ONCE’ and has a same start and end vertices. </p>
+**Degree** – no. of edges leaving a vertex. </p>
+All degrees are even in an euler’s circuit </p>
+All degrees are even in an euler’s path except the degrees of the start and end point. </p>
+
+### Stick diagram 
+</p>
+
+![image](https://github.com/himansh107/custom-layout/assets/75253218/d4268fdb-484e-420e-8e4a-6b0da7b18ef1) </p>
+
+
+### Euler's path optimization 
+
+**Sketch Layout for 3 input nand gate** </p>
+![image](https://github.com/himansh107/custom-layout/assets/75253218/207d4740-e60d-4b42-ac12-921ac0af0168) </p>
+
+### Lab Activity: Layout vs schematic of 3 input nand gate </p>
+
+ **spice netlist for prelayout** </p>
+ ```bash
+
+***Netlist description***
+M1 3 a vdd vdd pfet W=2.125u L=0.25u
+M2 2 b vdd vdd pfet W=2.125u L=0.25u
+M3 4 d 2 2 pfet W=2.125u L=0.25u
+M4 4 c 3 3 pfet W=2.125u L=0.25u
+M5 out e 4 4 pfet W=2.125u L=0.25u
+M6 out f 4 4 pfet W=2.125u L=0.25u
+
+M7 out a 6 6 nfet W=2.125u L=0.25u
+M8 out c 6 6 nfet W=2.125u L=0.25u
+M9 out e 7 7 nfet W=2.125u L=0.25u
+M10 6 b 0 0 nfet W=2.125u L=0.25u
+M11 6 d 0 0 nfet W=2.125u L=0.25u
+M12 7 f 0 0 nfet W=2.125u L=0.25u
+
+cload out 0 10f
+
+Vdd vdd 0 2.5
+V1 a 0 0 pulse 0 2.5 0.1n 10p 10p 1n 2n
+V2 b 0 0 pulse 0 2.5 0.2n 10p 10p 1n 2n
+V3 c 0 0 pulse 0 2.5 0.3n 10p 10p 1n 2n
+V4 d 0 0 pulse 0 2.5 0.4n 10p 10p 1n 2n
+V5 e 0 0 pulse 0 2.5 0.5n 10p 10p 1n 2n
+V6 f 0 0 pulse 0 2.5 0.6n 10p 10p 1n 2n
+
+***Simulation commands***
+.op
+.tran 10p 4n
+
+*** .include model file ***
+.include osu018.lib
+.end
+```
+**Prelayout simulation** </p>
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/70b9849a-fb12-440f-b070-cb5b832cb6bd" width="450"> </p>
+
+
+**Layout for postlayout simulation** </p>
+
+<img src="https://github.com/himansh107/custom-layout/assets/75253218/e7a19339-e02f-4a7b-b57d-125a482723b0" width="450"> </p>
+
+<h3> Acknowledgements </h3>
+
+- I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me access to his [custom layout course](https://www.udemy.com/course/vlsi-academy-custom-layout/learn/lecture/6099204#questions)
