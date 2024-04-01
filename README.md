@@ -46,12 +46,14 @@ The growth bumps created in the locos process isolated the two transistor areas 
     
 **(ii)** Place Photoresist on N side(**mask4**). Shower P side with low energy Boron (~60eV) </p>
   1. Why low energy boron? </p>
-  We want boron implant just on the surface of P side. 
-  Photoresist on Pside (**mask5**). Shower P side with N type impurity (Arsenic) </p>
+  We want boron implant just on the surface of P side.  </p>
+
+
+**(iii)** Photoresist on Pside (**mask5**). Shower P side with N type impurity (Arsenic) </p>
   
-**(iii)** Original oxide etched using dilute HF solution and re grown again to give high quality oxide (~10nm thin) </p>
-**(iv)** Deposit a polysilicon layer (~0.4um) over the entire substrate. Add an n type impurity over this layer to keep a low gate resistance. </p>
-**(v)** use **mask6** for GATE layer deposition </p>
+**(iv)** Original oxide etched using dilute HF solution and re grown again to give high quality oxide (~10nm thin) </p>
+**(v)** Deposit a polysilicon layer (~0.4um) over the entire substrate. Add an n type impurity over this layer to keep a low gate resistance. </p>
+**(vi)** use **mask6** for GATE layer deposition </p>
 
 **Image after 4th step** </p>
 
