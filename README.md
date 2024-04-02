@@ -351,6 +351,12 @@ V6 f 0 0 pulse 0 2.5 0.6n 10p 10p 1n 2n
 
 <img src="https://github.com/himansh107/custom-layout/assets/75253218/e7a19339-e02f-4a7b-b57d-125a482723b0" width="450"> </p>
 
+**Postlayout simulation and comparison** </p>
+
+![image](https://github.com/himansh107/custom-layout/assets/75253218/2d36b0e6-74c5-472c-8917-2b5ed24f0cd0) </p>
+
+
 <h3> Acknowledgements </h3>
 
 - I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me access to his [custom layout course](https://www.udemy.com/course/vlsi-academy-custom-layout/learn/lecture/6099204#questions)
+- I thank the open source tools' [slack channel](https://join.slack.com/t/open-source-silicon/shared_invite/zt-2eg56th1v-2SkdbmD6cGr9EbAFCJgIXw) for solving my xschem & magic doubts.
